@@ -19,10 +19,23 @@
 }
 
 .nav-link-ran {
+    display: block;
+    text-align: center;
+    height: 80px;
+}
+
+.inline-link-div {
+    display: inline;
+    width: 100px;
     text-align: center;
     font-size: 20px;
-    padding: 30px 40px;
-    background-color: lightpink;
+    line-height: 80px;
+    padding: 25px 40px;
+    background-color: #f29e18;
+}
+
+.inline-link-div a {
+    color: #a63c06;
 }
 
 /*--------------------Top Section---------*/
@@ -30,7 +43,7 @@
 #top-section {
     height: 300px;
     padding-top: 30px;
-    background-color: yellow;
+    background-color: #ffff000f;
     position: relative;
 }
 
@@ -47,10 +60,11 @@
     bottom: 30px;
 }
 
+
 /*----------------Navigation & Information Section-------------*/
 
 #nav-info-section {
-    background-color: beige;
+    background-color:#dce0f5;
 }
 
 .nav-row {
@@ -58,6 +72,14 @@
     line-height: 50px;
     font-size: 20px;
     background-color: lightgray;
+}
+
+.darker-nav {
+    background-color: #f29e18;
+}
+
+.lighter-nav {
+    background-color:#ffcf56;
 }
 
 .ini-info {
@@ -71,23 +93,94 @@
 /*------------------Customizing Section--------------*/
 
 #customizing-section {
-    background-color: lightsteelblue;
+    background-color: #bbc6d3;
+    padding-bottom: 20px;
 }
 
 /*--------------------Results Section----------------*/
 
 #results-section {
-    background-color: lightgoldenrodyellow;
+    background-color: #dce0f5;
+    padding-bottom: 20px;
 }
 
 /*--------------------All destinations Section-----------*/
 
 #all-dest-section {
-    background-color: beige;
+    background-color: #bbc6d3;
+    padding-bottom: 20px;
+}
+
+.destination-list {
+    background-color: gray;
+    margin: 50px;
+}
+
+.unor-dest {
+    list-style-type: none;
+    padding: 0;
+}
+
+.li-item-dest-1,
+.li-item-dest-3,
+.li-item-dest-5,
+.li-item-dest-7,
+.li-item-dest-9 {
+    background-color: #8d8d8d;
+    padding: 5px 10px;
+}
+
+.li-item-dest-2,
+.li-item-dest-4,
+.li-item-dest-6,
+.li-item-dest-8,
+.li-item-dest-10 {
+    padding: 5px 10px;
+}
+
+.unor-dest img {
+    height: 60px;
+    width: 60px;
 }
 
 /*-------------------Contact Section------------------*/
 
 #contact-section {
-    background-color: lightgreen;
+    background-color:#dce0f5;
+}
+
+.booking-form {
+    width: 60%;
+    margin-left: 20%;
+    padding: 40px;
+    display: block;
+    background-color: gray;
+}
+
+.first-row-form {
+    display: inline;
+    width: 44%;
+}
+
+.second-row-form,
+.third-row-form {
+    display: block;
+    width: 90%;
+}
+
+.first-row-form,
+.second-row-form,
+.third-row-form {
+    margin: 10px;
+}
+
+
+/*------------------JavaScript Conditions Styling----------*/
+
+#secondary-options{
+  display:none;
+}
+
+#secondary-options.active{
+ display:block;
 }

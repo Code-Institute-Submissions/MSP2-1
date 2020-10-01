@@ -24,10 +24,10 @@
     <header>
         <nav>
             <div class="row nav-row no-gutters">
-                <div class="col-md-3 col-sm-6">Start Customizing</div>
-                <div class="col-md-3 col-sm-6">About</div>
-                <div class="col-md-3 col-sm-6">Contact</div>
-                <div class="col-md-3 col-sm-6">Destinations</div>
+                <div class="col-md-3 col-sm-6 darker-nav"><a id="st-cus-li" href="#">Start Customizing</a> </div>
+                <div class="col-md-3 col-sm-6 lighter-nav"><a id="about-li" href="#">About</a></div>
+                <div class="col-md-3 col-sm-6 darker-nav"><a id="cont-li" href="#">Contact</a></div>
+                <div class="col-md-3 col-sm-6 lighter-nav"><a id="dest-li" href="#">Destinations</a></div>
             </div>
         </nav>
         
@@ -45,20 +45,62 @@
     </section>
     
     <section id="customizing-section">
+    <a name="cus-sec"/>
         <div class="ini-info">
         <h3>Tell us about <span class="uppercase">your</span> trip</h3>
         
         <h5>What type of weather do you like?</h5>
         </div>
 
-        <form><input type="text"><input type="submit" value="Submit"></form>
+        <form action="#!">
+                <p>
+                    <strong>What type of weather do you like?</strong>
+                </p>
+                <p>
+                    <label for="option-one">
+                    <input type="radio" name="option" id="option-one" class="radio-group" value="one"/>
+                        Sun 
+                    </label>
 
-        <div class="nav-link-ran"><a href="#">See your results</a></div>
+                    <br/>
+
+                    <label for="option-two">
+                    <input type="radio" name="option" id="option-two" class="radio-group" value="two"/>
+                        Snow
+                    </label>
+
+                    <br/>
+
+                    <label for="option-three">
+                    <input type="radio" name="option" id="option-three" class="radio-group" value="three"/>
+                        Mixed
+                    </label>
+
+                </p>
+                
+                <div id="secondary-options">
+                    <p>
+                    <strong>What type of activities do you like?</strong>
+                    </p>
+                    <div id="options">
+                    
+                    </div>
+                </div>
+                <p>
+                    <input type="submit" value="Submit"/>
+                </p>
+            </form>
+
+        <div class="nav-link-ran">
+            <div class="inline-link-div">
+                <a href="#">See your results</a>
+            </div>
+        </div>
         
     </section>
     
     <section id="results-section">
-
+    <a name="res-sec"/>
         <div class="ini-info">
             <h3>Your Perfect Fit</h3>
 
@@ -71,46 +113,78 @@
             </div>
         </div>
 
-        <div class="nav-link-ran"><a href="#">Want to have a look at our other locations? Click Here!</a></div>
+        
+        <div class="nav-link-ran">
+            <div class="inline-link-div">
+                <a href="#">Want to have a look at our other locations? Click Here!</a>
+            </div>
+        </div>
        
     </section>
     
     <section id="all-dest-section">
-        
+    <a name="des-sec"/>
         <div class="ini-info">
             <h3>Our Destinations</h3>
             <p>Quote om resande</p>
         </div>
 
-        <div class="row">
+        <div class="row no-gutters destination-list">
             <div class="col-md-6 col-12">
-                <ul>
-                    <li>Resmål 1</li>
-                    <li>Resmål 2</li>
-                    <li>Resmål 3</li>
-                    <li>Resmål 4</li>
-                    <li>Resmål 5</li>
+                <ul class="unor-dest">
+                    <li class="li-item-dest-1">
+                        <img src="assets/images/beach.jpg" alt="">
+                    Resmål 1</li>
+                    <li class="li-item-dest-2">
+                        <img src="assets/images/beach.jpg" alt="">
+                    Resmål 2</li>
+                    <li class="li-item-dest-3">
+                        <img src="assets/images/beach.jpg" alt="">
+                    Resmål 3</li>
+                    <li class="li-item-dest-4">
+                    <img src="assets/images/beach.jpg" alt="">
+                    Resmål 4</li>
+                    <li class="li-item-dest-5">
+                    <img src="assets/images/beach.jpg" alt="">
+                    Resmål 5</li>
                 </ul>
             </div>
             <div class="col-md-6 col-12">
-                <ul>
-                    <li>Resmål 1</li>
-                    <li>Resmål 2</li>
-                    <li>Resmål 3</li>
-                    <li>Resmål 4</li>
-                    <li>Resmål 5</li>
+                <ul class="unor-dest">
+                    <li class="li-item-dest-6">
+                        <img src="assets/images/beach.jpg" alt="">
+                    Resmål 1</li>
+                    <li class="li-item-dest-7">
+                        <img src="assets/images/beach.jpg" alt="">
+                    Resmål 2</li>
+                    <li class="li-item-dest-8">
+                        <img src="assets/images/beach.jpg" alt="">
+                    Resmål 3</li>
+                    <li class="li-item-dest-9">
+                        <img src="assets/images/beach.jpg" alt="">
+                    Resmål 4</li>
+                    <li class="li-item-dest-10">
+                        <img src="assets/images/beach.jpg" alt="">
+                    Resmål 5</li>
                 </ul>
             </div>
         </div>
     </section>
     
     <section id="contact-section">
-        
+    <a name="con-sec"/>
         <div class="ini-info">
             <h3>Contact</h3>
         </div>
         <div>
-            <form><input type="text"><input type="submit" value="Submit"></form>
+            <form class="booking-form">
+            <input type="text" placeholder="First Name" class="first-row-form" required>
+            <input type="text" placeholder="Last Name" class="first-row-form" required>
+            <input type="text" placeholder="Destination" class="second-row-form">
+            <input type="text" placeholder="Dates" class="third-row-form">
+
+            <input type="submit" value="Submit">
+            </form>
         </div>
         
     </section>
@@ -121,6 +195,7 @@
 
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL-ZT8N8pmF5u92G4L2NriTm1DJnwODT0&callback=initMap"></script>
-    <script src="assets/js/maps.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/slide-scroll.js"></script>
 </body>
 </html>
