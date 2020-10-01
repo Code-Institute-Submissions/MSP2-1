@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display&family=Raleway&display=swap');
+
+/*-------------General Styling Classes------------*/
+
+.play-font {
+    font-family: 'Playfair Display', serif;
+}
+
+.dance-font {
+    font-family: 'Dancing Script', cursive;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.nav-link-ran {
+    text-align: center;
+    font-size: 20px;
+    padding: 30px 40px;
+    background-color: lightpink;
+}
+
+/*--------------------Top Section---------*/
+
+#top-section {
+    height: 300px;
+    padding-top: 30px;
+    background-color: yellow;
+    position: relative;
+}
+
+.logo-text {
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+.top-par {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+}
+
+/*----------------Navigation & Information Section-------------*/
+
+#nav-info-section {
+    background-color: beige;
+}
+
+.nav-row {
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    background-color: lightgray;
+}
+
+.ini-info {
+    padding: 100px 75px;
+}
+
+.ini-info-heading {}
+
+.ini-intro-par {}
+
+/*------------------Customizing Section--------------*/
+
+#customizing-section {
+    background-color: lightsteelblue;
+}
+
+/*--------------------Results Section----------------*/
+
+#results-section {
+    background-color: lightgoldenrodyellow;
+}
+
+/*--------------------All destinations Section-----------*/
+
+#all-dest-section {
+    background-color: beige;
+}
+
+/*-------------------Contact Section------------------*/
+
+#contact-section {
+    background-color: lightgreen;
+}
