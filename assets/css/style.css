@@ -74,12 +74,19 @@
     background-color: lightgray;
 }
 
+
+
 .darker-nav {
     background-color: #f29e18;
 }
 
 .lighter-nav {
     background-color:#ffcf56;
+}
+
+.darker-nav a,
+.lighter-nav a {
+    color:  #a63c06;
 }
 
 .ini-info {
@@ -127,20 +134,30 @@
 .li-item-dest-7,
 .li-item-dest-9 {
     background-color: #8d8d8d;
-    padding: 5px 10px;
+
 }
 
-.li-item-dest-2,
-.li-item-dest-4,
-.li-item-dest-6,
-.li-item-dest-8,
-.li-item-dest-10 {
+.li-item {
     padding: 5px 10px;
+   
+}
+
+.li-item img {
+    display: inline;
+}
+
+.li-text {
+    display: inline-block;
+}
+
+.sm-dest-head,
+.dest-disc {
+    
 }
 
 .unor-dest img {
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
 }
 
 /*-------------------Contact Section------------------*/
@@ -152,26 +169,29 @@
 .booking-form {
     width: 60%;
     margin-left: 20%;
-    padding: 40px;
     display: block;
     background-color: gray;
 }
 
+.form-input-area {
+    width: 80%;
+}
+
 .first-row-form {
     display: inline;
-    width: 44%;
+    width: 48%;
 }
 
 .second-row-form,
 .third-row-form {
     display: block;
-    width: 90%;
+    width: 97%; 
 }
 
 .first-row-form,
 .second-row-form,
 .third-row-form {
-    margin: 10px;
+    
 }
 
 
