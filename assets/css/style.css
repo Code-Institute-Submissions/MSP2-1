@@ -104,11 +104,15 @@
     padding-bottom: 20px;
 }
 
+#cus-form {
+    text-align: center;
+}
+
 /*--------------------Results Section----------------*/
 
 #results-section {
     background-color: #dce0f5;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 /*--------------------All destinations Section-----------*/
@@ -121,6 +125,8 @@
 .destination-list {
     background-color: gray;
     margin: 50px;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .unor-dest {
@@ -171,22 +177,32 @@
     margin-left: 20%;
     display: block;
     background-color: gray;
+    padding: 30px;
+    border-radius: 5px;
 }
 
 .form-input-area {
-    width: 80%;
+    width: 100%;
 }
 
 .first-row-form {
     display: inline;
     width: 48%;
+    background-color: #e4e4e459;
+    color: white;
+    border-radius: 5px;
 }
 
 .second-row-form,
-.third-row-form {
+.third-row-form,
+#con-form-text {
     display: block;
     width: 97%; 
+    background-color: #e4e4e459;
+    color: white;
+    border-radius: 5px;
 }
+
 
 .first-row-form,
 .second-row-form,
@@ -197,10 +213,21 @@
 
 /*------------------JavaScript Conditions Styling----------*/
 
-#secondary-options{
+#secondary-options,
+#tertiary-options {
   display:none;
 }
 
-#secondary-options.active{
+#secondary-options.active,
+#tertiary-options.active {
  display:block;
+}
+
+/*------------------ Media ----------*/
+
+@media screen and (max-width: 768px) {
+    #big-link-med {
+        width: 90%;
+        font-size: 20px;
+    }
 }

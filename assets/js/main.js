@@ -19,7 +19,8 @@ $(function() {
           type: "radio",
           name: "option2",
           value: v,
-          id: "option-2-" + k
+          id: "option-2-" + k,
+          class: "radio-group-2"
         });
 
         var newLabel = $("<label>").attr("for", "option-2-" + k).html(v).prepend(newOption);
@@ -31,7 +32,6 @@ $(function() {
     }
 
   });
-
   
   $("form").on("submit", function(){
     
@@ -41,5 +41,4 @@ $(function() {
     
     return false;
   });
-  
 });

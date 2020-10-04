@@ -24,7 +24,7 @@
     <header>
         <nav>
             <div class="row nav-row no-gutters">
-                <div class="col-md-3 col-sm-6 darker-nav"><a id="st-cus-li" href="#">Start Customizing</a> </div>
+                <div class="col-md-3 col-sm-6 darker-nav"><a id="st-cus-li" href="#">Start Customizing Your Trip</a> </div>
                 <div class="col-md-3 col-sm-6 lighter-nav"><a id="about-li" href="#">About</a></div>
                 <div class="col-md-3 col-sm-6 darker-nav"><a id="cont-li" href="#">Contact</a></div>
                 <div class="col-md-3 col-sm-6 lighter-nav"><a id="dest-li" href="#">Destinations</a></div>
@@ -32,13 +32,26 @@
         </nav>
         
     </header>
-
+    <a name="res-sec"/>
     <div class="ini-info">
         <h3 class="ini-info-heading">The new way of customizing your holiday. </h3>
         <p class="ini-intro-par">
         Have you ever dreamed about going on a trip that isn't made for someone else, but rather something that
         fits your needs and preferences? Your time is now! We'll help you find the perfect fit for you, all you have
-        to do is tell us and we'll arrange it. Ready to get started? Let's go!
+        to do is tell us and we'll arrange it. Ready to get started? 
+        <br>
+        Let's go!
+        </p>
+
+        <h3 class="ini-info-heading">How does it work? </h3>
+        <p class="ini-intro-par">
+        <ol>
+            <li>Fill out the form below with your travel preferences.</li>
+            <li>Find the right match for you among the results.</li>
+            <li><a href="#" id="cont-link">Book your trip.</a> </li>
+        </ol>
+        <br>
+        Let's go!
         </p>
     </div>
     
@@ -52,7 +65,7 @@
         <h5>What type of weather do you like?</h5>
         </div>
 
-        <form action="#!">
+        <form id="cus-form" action="#!">
                 <p>
                     <strong>What type of weather do you like?</strong>
                 </p>
@@ -86,6 +99,20 @@
                     
                     </div>
                 </div>
+
+                <!--    Test Version -->
+
+                <div id="tertiary-options">
+                    <p>
+                    <strong>What type of accomodation do you like?</strong>
+                    </p>
+                    <div id="options2">
+                    
+                    </div>
+                </div>
+
+                
+
                 <p>
                     <input type="submit" value="Submit"/>
                 </p>
@@ -100,7 +127,7 @@
     </section>
     
     <section id="results-section">
-    <a name="res-sec"/>
+    
         <div class="ini-info">
             <h3>Your Perfect Fit</h3>
 
@@ -115,8 +142,9 @@
 
         
         <div class="nav-link-ran">
-            <div class="inline-link-div">
-                <a href="#">Want to have a look at our other locations? Click Here!</a>
+            <h5>Want to have a look at our other locations? </h5>
+            <div class="inline-link-div" id="big-link-med">
+                <a href="#">Click Here!</a>
             </div>
         </div>
        
@@ -164,28 +192,28 @@
                     <li class="li-item-dest-1 li-item">
                         <img src="assets/images/beach.jpg" alt="">
                         <div class="li-text">
-                            <h6 class="sm-dest-head">Resmål 1</h6>
-                            <p class="dest-disc">Det drömmiga nya stället för alla</p>
+                                <h6 class="sm-dest-head">Resmål 1</h6>
+                                <p class="dest-disc">Det drömmiga nya stället för alla</p>
                         </div> 
                     </li>
                     <li class="li-item-dest-2 li-item">
                         <img src="assets/images/beach.jpg" alt="">
                         <div class="li-text">
-                            <h6 class="sm-dest-head">Resmål 1</h6>
+                            <h6 class="sm-dest-head">Resmål 2</h6>
                             <p class="dest-disc">Det drömmiga nya stället för alla</p>
                         </div> 
                     </li>
                     <li class="li-item-dest-3 li-item">
                         <img src="assets/images/beach.jpg" alt="">
                         <div class="li-text">
-                            <h6 class="sm-dest-head">Resmål 1</h6>
+                            <h6 class="sm-dest-head">Resmål 3</h6>
                             <p class="dest-disc">Det drömmiga nya stället för alla</p>
                         </div> 
                     </li>
                     <li class="li-item-dest-4 li-item">
                     <img src="assets/images/beach.jpg" alt="">
                         <div class="li-text">
-                            <h6 class="sm-dest-head">Resmål 1</h6>
+                            <h6 class="sm-dest-head">Resmål 4</h6>
                             <p class="dest-disc">Det drömmiga nya stället för alla</p>
                         </div> 
                     </li>
@@ -253,6 +281,8 @@
                     <input type="text" placeholder="Destination" class="second-row-form">
                     <input type="text" placeholder="Dates" class="third-row-form">
 
+                    <textarea name="form-text" id="con-form-text" rows="5"></textarea>
+
                     <input type="submit" value="Submit">
                 </div>
             </form>
@@ -268,5 +298,6 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL-ZT8N8pmF5u92G4L2NriTm1DJnwODT0&callback=initMap"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/slide-scroll.js"></script>
+    <script src="assets/js/destToggle.js"></script>
 </body>
 </html>
