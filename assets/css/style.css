@@ -42,13 +42,23 @@
 
 #top-section {
     height: 300px;
-    padding-top: 30px;
-    background-color: #ffff000f;
+    background: url("../images/flight.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     position: relative;
+    
+}
+
+#back-overlay {
+    background-color:#ffab0066;
+    height: 100%;
 }
 
 .logo-text {
     margin-left: 50px;
+    padding-top: 30px;
     font-size: 50px;
 }
 
@@ -58,6 +68,7 @@
     position: absolute;
     right: 50px;
     bottom: 30px;
+    font-weight: 700;
 }
 
 
@@ -145,7 +156,7 @@
 
 .li-item {
     padding: 5px 10px;
-   
+   display: block;
 }
 
 .li-item img {
@@ -156,10 +167,14 @@
     display: inline-block;
 }
 
-.sm-dest-head,
 .dest-disc {
-    
+    display: none;
 }
+
+.dest-disc-active {
+    display: block;
+}
+
 
 .unor-dest img {
     height: 80px;
@@ -170,6 +185,7 @@
 
 #contact-section {
     background-color:#dce0f5;
+    padding-bottom: 80px;
 }
 
 .booking-form {
@@ -208,6 +224,15 @@
 .second-row-form,
 .third-row-form {
     
+}
+
+/*----------------------Footer-------------------*/
+
+footer {
+    background-color: #f29e18;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
 }
 
 

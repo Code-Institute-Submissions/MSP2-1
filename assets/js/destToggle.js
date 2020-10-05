@@ -1,5 +1,7 @@
+//Toggles the description paragraph for each listed destination
+
 $(function() {
-    $(".li-text").on("click", function() {
-        $(this).slideToggle();
+    $(".li-text").click(function() {
+	    $(".dest-disc", this).slideToggle(500);
     });
 })
