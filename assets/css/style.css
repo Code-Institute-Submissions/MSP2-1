@@ -104,7 +104,11 @@
     padding: 100px 75px;
 }
 
-.ini-info-heading {}
+.ini-info-heading h3,
+.ini-info h3{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
 
 .ini-intro-par {}
 
@@ -134,7 +138,7 @@
 }
 
 .destination-list {
-    background-color: gray;
+    background-color: #929292;
     margin: 50px;
     border-radius: 5px;
     padding: 5px;
@@ -167,6 +171,15 @@
     display: inline-block;
 }
 
+.sm-dest-head {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+.dest-spec {
+    font-weight: 500;
+}
+
 .dest-disc {
     display: none;
 }
@@ -177,8 +190,9 @@
 
 
 .unor-dest img {
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
 }
 
 /*-------------------Contact Section------------------*/
@@ -199,6 +213,12 @@
 
 .form-input-area {
     width: 100%;
+}
+
+.form-input-area input,
+.form-input-area textarea {
+    border: none;
+    margin: 3px;
 }
 
 .first-row-form {
@@ -251,8 +271,21 @@ footer {
 /*------------------ Media ----------*/
 
 @media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+    }
+
+    .ini-info {
+        padding: 100px 40px;
+    }
+    
     #big-link-med {
         width: 90%;
         font-size: 20px;
+    }
+
+    .booking-form {
+        width: 90%;
+        margin-left: 5%;
     }
 }
