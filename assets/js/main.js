@@ -3,7 +3,7 @@ $(function() {
   var secondaryOptions = {
     one: ["Shopping", "Sun-Bathing", "Culture"],
     two: ["Skiing", "Hiking", "Sleading"],
-    three: ["Hiking", "Culture", "Adventure"],
+    three: ["Shopping", "Culture", "Adventure"],
   };
 
   $(".radio-group").change(function() {
@@ -20,7 +20,7 @@ $(function() {
           name: "option2",
           value: v,
           id: "option-2-" + k,
-          class: "radio-group-2"
+          class: "col-4"
         });
 
         var newLabel = $("<label>").attr("for", "option-2-" + k).html(v).prepend(newOption);
@@ -35,10 +35,8 @@ $(function() {
   
   $("form").on("submit", function(){
     
-    var data = $(this).serialize();
-    
-    alert(data);
     
     return false;
   });
+  
 });

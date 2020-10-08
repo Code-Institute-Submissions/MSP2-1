@@ -65,7 +65,7 @@
         <div class="ini-info">
         <h3>Tell us about <span class="uppercase">your</span> trip</h3>
         
-        <h5>What type of weather do you like?</h5>
+        <h5>Click the options and get a suggestion for your perfect holiday</h5>
         </div>
 
         <form id="cus-form" action="#!">
@@ -73,34 +73,42 @@
                     <strong>What type of weather do you like?</strong>
                 </p>
                 <p>
+                <div class="row">
+                <div class="icon-options col-4">
+                    <i class="fas fa-sun"></i>
                     <label for="option-one">
                     <input type="radio" name="option" id="option-one" class="radio-group" value="one"/>
-                        Sun 
+                        Sun
                     </label>
-
+                </div>
                     <br/>
-
+                <div class="icon-options col-4">
+                    <i class="far fa-snowflake"></i>
                     <label for="option-two">
                     <input type="radio" name="option" id="option-two" class="radio-group" value="two"/>
                         Snow
                     </label>
-
+                </div>
                     <br/>
-
+                <div class="icon-options col-4">
+                    <i class="fas fa-cloud-sun-rain"></i>
                     <label for="option-three">
                     <input type="radio" name="option" id="option-three" class="radio-group" value="three"/>
                         Mixed
                     </label>
-
+                </div>
+                </div>
                 </p>
                 
-                <div id="secondary-options">
+                <div id="secondary-options" class="row">
                     <p>
                     <strong>What type of activities do you like?</strong>
                     </p>
+                    
                     <div id="options">
                     
                     </div>
+                    
                 </div>
 
                 <!--    Test Version -->
@@ -117,15 +125,11 @@
                 
 
                 <p>
-                    <input type="submit" value="Submit"/>
+                    <input type="submit" value="Submit" id="inline-link-input" onclick="submitLink(); checkValue()"/>
                 </p>
             </form>
 
-        <div class="nav-link-ran">
-            <div class="inline-link-div">
-                <a href="#" id="res-rev">See your results</a>
-            </div>
-        </div>
+
         
     </section>
     
@@ -140,8 +144,8 @@
                         <div class="card">
                             <img class="card-img-top" src="assets/images/beach.jpg" alt="Card image cap">
                             <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <h5 class="card-title" id="card-head-1">Card title</h5>
+                            <p class="card-text" id="card-desc-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                             <div class="card-footer">
                             <small class="text-muted">Last updated 3 mins ago</small>
@@ -152,8 +156,8 @@
                         <div class="card">
                             <img class="card-img-top" src="assets/images/beach.jpg" alt="Card image cap">
                             <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <h5 class="card-title" id="card-head-2">Card title</h5>
+                            <p class="card-text" id="card-desc-2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                             <div class="card-footer">
                             <small class="text-muted">Last updated 3 mins ago</small>
@@ -164,8 +168,8 @@
                         <div class="card">
                             <img class="card-img-top" src="assets/images/beach.jpg" alt="Card image cap">
                             <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <h5 class="card-title" id="card-head-3">Card title</h5>
+                            <p class="card-text" id="card-desc-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                             <div class="card-footer">
                             <small class="text-muted">Last updated 3 mins ago</small>
@@ -233,7 +237,7 @@
                         <div class="li-text col-xl-10 col-md-8 col-sm-9 col-8">
                                 <h6 class="sm-dest-head">Inka Adventure</h6>
                                 <p class="dest-spec">Cuzco, Peru</p>
-                                <div class="dest-disc">
+                                <div class="dest-disc" id="cuz-disc">
                                     <p>
                                     This beautiful place takes you back in time to see 
                                     how the Inka People lived and lets you experience history
@@ -451,5 +455,7 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/slide-scroll.js"></script>
     <script src="assets/js/destToggle.js"></script>
+    <script src="assets/js/addLink.js"></script>
+    <script src="assets/js/resultCards.js"></script>
 </body>
 </html>
