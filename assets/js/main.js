@@ -20,10 +20,9 @@ $(function() {
           name: "option2",
           value: v,
           id: "option-2-" + k,
-          class: "col-4"
         });
 
-        var newLabel = $("<label>").attr("for", "option-2-" + k).html(v).prepend(newOption);
+        var newLabel = $("<label>").addClass("radio-inline").attr("for", "option-2-" + k).html(v).prepend(newOption);
 
         $("#options").append(newLabel).append("<br/>");
 

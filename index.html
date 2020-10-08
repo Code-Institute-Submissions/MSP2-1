@@ -69,11 +69,11 @@
         </div>
 
         <form id="cus-form" action="#!">
-                <p>
+                <p class="cuz-head">
                     <strong>What type of weather do you like?</strong>
                 </p>
                 <p>
-                <div class="row">
+                <div class="row options-div-1">
                 <div class="icon-options col-4">
                     <i class="fas fa-sun"></i>
                     <label for="option-one">
@@ -101,7 +101,7 @@
                 </p>
                 
                 <div id="secondary-options" class="row">
-                    <p>
+                    <p class="cuz-head">
                     <strong>What type of activities do you like?</strong>
                     </p>
                     
@@ -109,17 +109,6 @@
                     
                     </div>
                     
-                </div>
-
-                <!--    Test Version -->
-
-                <div id="tertiary-options">
-                    <p>
-                    <strong>What type of accomodation do you like?</strong>
-                    </p>
-                    <div id="options2">
-                    
-                    </div>
                 </div>
 
                 
@@ -144,36 +133,30 @@
                         <div class="card">
                             <img class="card-img-top" src="assets/images/beach.jpg" alt="Card image cap">
                             <div class="card-body">
-                            <h5 class="card-title" id="card-head-1">Card title</h5>
+                            <h5 class="card-title" id="card-head-1">Start Customizing to see Recommendation</h5>
                             <p class="card-text" id="card-desc-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card">
                             <img class="card-img-top" src="assets/images/beach.jpg" alt="Card image cap">
                             <div class="card-body">
-                            <h5 class="card-title" id="card-head-2">Card title</h5>
+                            <h5 class="card-title" id="card-head-2">Start Customizing to see Recommendation</h5>
                             <p class="card-text" id="card-desc-2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card">
                             <img class="card-img-top" src="assets/images/beach.jpg" alt="Card image cap">
                             <div class="card-body">
-                            <h5 class="card-title" id="card-head-3">Card title</h5>
+                            <h5 class="card-title" id="card-head-3">Start Customizing to see Recommendation</h5>
                             <p class="card-text" id="card-desc-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -427,19 +410,27 @@
     <a name="con-sec"/>
         <div class="ini-info">
             <h3>Contact</h3>
-            <p>Fill out your information to make a booking request. Have any questions? Use the form to get the anwsers you seek!</p>
+            <p>Fill out your information to make a booking request. 
+            <br>
+            Have any questions? Use the form to get the anwsers you seek!</p>
         </div>
         <div>
+        <div class="row button-cont">
+            <h3 class="form-choice"><button class="button-choice active-con" id="book-button" onclick="changeBooking()">Booking Form</button></h3>
+            <h3 class="form-choice"><button class="button-choice" id="contact-button" onclick="changeContact()">Contact Form</button></h3>
+        </div>
             <form class="booking-form">
                 <div class="form-input-area">
                     <input type="text" placeholder="First Name" class="first-row-form" required>
                     <input type="text" placeholder="Last Name" class="first-row-form" required>
-                    <input type="text" placeholder="Destination" class="second-row-form">
-                    <input type="text" placeholder="Dates" class="third-row-form">
+                    <input type="email" placeholder="Email" class="second-row-form" required>
+                    <input type="text" placeholder="Phone Number" class="second-row-form" required>
+                    <input type="text" placeholder="Destination" class="booking-row-form">
+                    <input type="text" placeholder="Dates" class="booking-row-form">
 
-                    <textarea name="form-text" id="con-form-text" rows="5" placeholder="Fill in your question/booking-request"></textarea>
+                    <textarea name="form-text" id="con-form-text" rows="5" placeholder="Fill in your booking-request"></textarea>
 
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit" id="input-contact-sub">
                 </div>
             </form>
         </div>
@@ -457,5 +448,6 @@
     <script src="assets/js/destToggle.js"></script>
     <script src="assets/js/addLink.js"></script>
     <script src="assets/js/resultCards.js"></script>
+    <script src="assets/js/contact.js"></script>
 </body>
 </html>

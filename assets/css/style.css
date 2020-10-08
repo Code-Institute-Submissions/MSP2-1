@@ -127,6 +127,15 @@
     display: block;
 }
 
+.cuz-head {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.options-div-1 {
+    margin: 40px;
+}
+
 .icon-options {
     width: 30%;
     display: inline;
@@ -142,7 +151,9 @@
     color: #a63c06;
 }
 
-#inline-link-input {
+#inline-link-input,
+#input-contact-sub,
+.button-choice {
     width: 200px;
     text-align: center;
     font-size: 20px;
@@ -151,6 +162,10 @@
     background-color: #f29e18;
     color: #a63c06;
     border: none;
+}
+
+#input-contact-sub {
+    margin-left: 33%;
 }
 
 /*--------------------Results Section----------------*/
@@ -236,7 +251,7 @@
     width: 60%;
     margin-left: 20%;
     display: block;
-    background-color: gray;
+    background-color: #8080804a;
     padding: 30px;
     border-radius: 5px;
 }
@@ -253,27 +268,50 @@
 
 .first-row-form {
     display: inline;
-    width: 48%;
+    width: 47%;
     background-color: #e4e4e459;
     color: white;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .second-row-form,
-.third-row-form,
+.booking-row-form,
 #con-form-text {
     display: block;
     width: 97%; 
     background-color: #e4e4e459;
     color: white;
-    border-radius: 5px;
+    border-radius: 3px;
+}
+
+.booking-row-form,
+#con-form-text {
+    background-color: #ffa5003b;
 }
 
 
-.first-row-form,
-.second-row-form,
-.third-row-form {
-    
+.form-choice {
+    display: inline;
+    width: 300px;
+}
+
+.button-choice {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button-cont {
+    margin-left: 33%;
+}
+
+/*----------------------Contact JS-------------------*/
+
+.hidden-row {
+    display: none;
+}
+
+.active-con {
+    background-color: #ffb33b;
 }
 
 /*----------------------Footer-------------------*/
@@ -296,6 +334,10 @@ footer {
 #secondary-options.active,
 #tertiary-options.active {
  display:block;
+}
+
+.radio-2 {
+    display: inline;
 }
 
 /*------------------ Media ----------*/
@@ -324,4 +366,12 @@ footer {
         width: 90%;
         margin-left: 5%;
     }
+
+    #input-contact-sub {
+        margin-left: 20%;
+    }
+
+    .button-cont {
+    margin-left: 20%;
+}
 }
