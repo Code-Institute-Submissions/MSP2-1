@@ -100,6 +100,12 @@
     color:  #a63c06;
 }
 
+.darker-nav a:hover,
+.lighter-nav a:hover {
+    color: #fa5c0b;
+    text-decoration: none;
+}
+
 .ini-info {
     padding: 100px 75px;
 }
@@ -111,6 +117,15 @@
 }
 
 .ini-intro-par {}
+
+#cont-link {
+    color: #a63c06;
+}
+
+#cont-link:hover {
+    color: #fa5c0b;
+    text-decoration: none;
+}
 
 /*------------------Customizing Section--------------*/
 
@@ -300,6 +315,7 @@
     margin-bottom: 20px;
 }
 
+
 .button-cont {
     margin-left: 33%;
 }
@@ -321,6 +337,15 @@ footer {
     height: 50px;
     line-height: 50px;
     text-align: center;
+}
+
+.footer-icon {
+    font-size: 25px;
+    color: #a63c06;
+}
+
+.footer-icon:hover {
+    color: #fa5c0b;
 }
 
 
