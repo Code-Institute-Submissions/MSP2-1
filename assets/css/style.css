@@ -190,6 +190,12 @@
     padding-bottom: 40px;
 }
 
+#map,
+#map2,
+#map3 {
+    min-height: 200px;
+}
+
 /*--------------------All destinations Section-----------*/
 
 #all-dest-section {
