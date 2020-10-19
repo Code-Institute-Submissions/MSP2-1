@@ -58,13 +58,13 @@ function initMap(a,b,c,d,e,f) {
                     if (data2 == "Shopping") {
                         
                         $("#card-head-1").html(countryInfo[0][1] +", "+countryInfo[0][0]);
-                        $("#card-img-1").attr("src", "assets/images/shop.jpg");
+                        $("#card-img-1").attr("src", "assets/images/pride.JPG");
                         
                         $("#card-head-2").html(countryInfo[1][1] +", "+countryInfo[1][0]);
-                        $("#card-img-2").attr("src", "assets/images/ski.jpg");
+                        $("#card-img-2").attr("src", "assets/images/market.JPG");
 
                         $("#card-head-3").html(countryInfo[2][1] +", "+countryInfo[2][0]);
-                        $("#card-img-3").attr("src", "assets/images/flight.jpg");
+                        $("#card-img-3").attr("src", "assets/images/house.JPG");
 
                         initMap(countryInfo[0][2], countryInfo[0][3],countryInfo[1][2],countryInfo[1][3],countryInfo[2][2],countryInfo[2][3]);
                         
@@ -72,26 +72,26 @@ function initMap(a,b,c,d,e,f) {
                     } else if (data2 == "Sun-Bathing") {
                         
                         $("#card-head-1").html(countryInfo[3][1] +", "+countryInfo[3][0]);
-                        $("#card-img-1").attr("src", "assets/images/shop.jpg");
+                        $("#card-img-1").attr("src", "assets/images/desert.JPG");
 
                         $("#card-head-2").html(countryInfo[4][1] +", "+countryInfo[4][0]);
-                        $("#card-img-2").attr("src", "assets/images/shop.jpg");
+                        $("#card-img-2").attr("src", "assets/images/hike.JPG");
 
                         $("#card-head-3").html(countryInfo[5][1] +", "+countryInfo[5][0]);
-                        $("#card-img-3").attr("src", "assets/images/shop.jpg");
+                        $("#card-img-3").attr("src", "assets/images/rock-beach.JPG");
 
                         initMap(countryInfo[3][2], countryInfo[3][3],countryInfo[4][2],countryInfo[4][3],countryInfo[5][2],countryInfo[5][3]);
                     
                     } else if (data2 == "Culture") {
                         
                         $("#card-head-1").html(countryInfo[6][1] +", "+countryInfo[6][0]);
-                        $("#card-img-1").attr("src", "assets/images/shop.jpg");
+                        $("#card-img-1").attr("src", "assets/images/cliff-house.JPG");
 
                         $("#card-head-2").html(countryInfo[7][1] +", "+countryInfo[7][0]);
-                        $("#card-img-2").attr("src", "assets/images/shop.jpg");
+                        $("#card-img-2").attr("src", "assets/images/arc.JPG");
 
                         $("#card-head-3").html(countryInfo[8][1] +", "+countryInfo[8][0]);
-                        $("#card-img-3").attr("src", "assets/images/shop.jpg");
+                        $("#card-img-3").attr("src", "assets/images/fireworks.JPG");
 
                         initMap(countryInfo[6][2], countryInfo[6][3],countryInfo[7][2],countryInfo[7][3],countryInfo[8][2],countryInfo[8][3]);
                     
@@ -104,26 +104,26 @@ function initMap(a,b,c,d,e,f) {
                     if (data2 == "Skiing") {
                         
                         $("#card-head-1").html(countryInfo[9][1] +", "+countryInfo[9][0]);
-                        $("#card-img-1").attr("src", "assets/images/ski.jpg");
+                        $("#card-img-1").attr("src", "assets/images/ano-ski.JPG");
 
                         $("#card-head-2").html(countryInfo[10][1] +", "+countryInfo[10][0]);
-                        $("#card-img-2").attr("src", "assets/images/shop.jpg");
+                        $("#card-img-2").attr("src", "assets/images/skiing.JPG");
 
                         $("#card-head-3").html(countryInfo[11][1] +", "+countryInfo[11][0]);
-                        $("#card-img-3").attr("src", "assets/images/ski.jpg");
+                        $("#card-img-3").attr("src", "assets/images/cabin.JPG");
                         
                         initMap(countryInfo[9][2], countryInfo[9][3],countryInfo[10][2],countryInfo[10][3],countryInfo[11][2],countryInfo[11][3]);
                         
                     } else if (data2 == "Hiking") {
                         
                         $("#card-head-1").html(countryInfo[12][1] +", "+countryInfo[12][0]);
-                        $("#card-img-1").attr("src", "assets/images/shop.jpg");
+                        $("#card-img-1").attr("src", "assets/images/mou-lake.JPG");
 
                         $("#card-head-2").html(countryInfo[13][1] +", "+countryInfo[13][0]);
-                        $("#card-img-2").attr("src", "assets/images/ski.jpg");
+                        $("#card-img-2").attr("src", "assets/images/ice-hike.JPG");
 
                         $("#card-head-3").html(countryInfo[14][1] +", "+countryInfo[14][0]);
-                        $("#card-img-3").attr("src", "assets/images/shop.jpg");
+                        $("#card-img-3").attr("src", "assets/images/cabin.JPG");
 
                         initMap(countryInfo[12][2], countryInfo[12][3],countryInfo[13][2],countryInfo[13][3],countryInfo[14][2],countryInfo[14][3]);
                     
@@ -149,26 +149,26 @@ function initMap(a,b,c,d,e,f) {
                     if (data2 == "Shopping") {
                         
                         $("#card-head-1").html(countryInfo[18][1] +", "+countryInfo[18][0]);
-                        $("#card-img-1").attr("src", "assets/images/shop.jpg");
+                        $("#card-img-1").attr("src", "assets/images/blom.JPG");
 
                         $("#card-head-2").html(countryInfo[19][1] +", "+countryInfo[19][0]);
-                        $("#card-img-2").attr("src", "assets/images/shop.jpg");
+                        $("#card-img-2").attr("src", "assets/images/market.JPG");
 
                         $("#card-head-3").html(countryInfo[20][1] +", "+countryInfo[20][0]);
-                        $("#card-img-3").attr("src", "assets/images/ski.jpg");
+                        $("#card-img-3").attr("src", "assets/images/rock-beach.JPG");
 
                         initMap(countryInfo[18][2], countryInfo[18][3],countryInfo[19][2],countryInfo[19][3],countryInfo[20][2],countryInfo[20][3]);
                     
                     } else if (data2 == "Culture") {
                         
                         $("#card-head-1").html(countryInfo[21][1] +", "+countryInfo[21][0]);
-                        $("#card-img-1").attr("src", "assets/images/shop.jpg");
+                        $("#card-img-1").attr("src", "assets/images/church.JPG");
 
                         $("#card-head-2").html(countryInfo[22][1] +", "+countryInfo[22][0]);
-                        $("#card-img-2").attr("src", "assets/images/shop.jpg");
+                        $("#card-img-2").attr("src", "assets/images/cusco.JPG");
 
                         $("#card-head-3").html(countryInfo[23][1] +", "+countryInfo[23][0]);
-                        $("#card-img-3").attr("src", "assets/images/shop.jpg");
+                        $("#card-img-3").attr("src", "assets/images/bjorn.JPG");
 
                         initMap(countryInfo[21][2], countryInfo[21][3],countryInfo[22][2],countryInfo[22][3],countryInfo[23][2],countryInfo[23][3]);
                     

@@ -196,6 +196,10 @@
     min-height: 200px;
 }
 
+.card-img-top {
+    max-height: 300px;
+}
+
 /*--------------------All destinations Section-----------*/
 
 #all-dest-section {
@@ -219,7 +223,7 @@
 .li-item-dest-5,
 .li-item-dest-7,
 .li-item-dest-9 {
-    background-color:#f1f1f16b;
+    background-color:#f1f1f1d1;
 
 }
 
