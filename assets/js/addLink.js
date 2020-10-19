@@ -1,4 +1,4 @@
-//Sends the user to the resultsection if the button to submit choices has been clicked
+//Sends the user to the resultsection and displays the resultsection, if the button to submit choices has been clicked
 
 function submitLink() {
 
@@ -8,6 +8,7 @@ function submitLink() {
     if (subLink == "Submit") {
         console.log("Correct");
         
+        $("#results-section").removeClass("hidden-results").addClass("show-results");
         window.location = "#results-section";
         
         

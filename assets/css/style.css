@@ -207,7 +207,6 @@
     background-color: #fff;
     margin: 50px;
     border-radius: 5px;
-    padding: 5px;
 }
 
 .unor-dest {
@@ -225,7 +224,6 @@
 }
 
 .li-item {
-    padding: 5px 10px;
    display: block;
 }
 
@@ -235,6 +233,8 @@
 
 .li-text {
     display: inline-block;
+    padding-top: 20px;
+    padding-right: 30px;
 }
 
 .sm-dest-head {
@@ -257,8 +257,7 @@
 
 .unor-dest img {
     height: 100px;
-    width: 100px;
-    margin-right: 20px;
+    width: 100%;
 }
 
 /*-------------------Contact Section------------------*/
@@ -371,6 +370,14 @@ footer {
     display: inline;
 }
 
+.hidden-results {
+    display: none;
+}
+
+.show-results {
+    display: block;
+}
+
 /*------------------ Media ----------*/
 
 @media screen and (max-width: 768px) {
@@ -384,9 +391,11 @@ footer {
 
     .unor-dest img {
     height: 80px;
-    width: 80px;
-    margin-right: 20px;
-}
+    }
+
+    .li-text {
+    padding-top: 8px;
+    }
     
     #big-link-med {
         width: 90%;

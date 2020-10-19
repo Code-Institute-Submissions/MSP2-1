@@ -51,6 +51,7 @@ function initMap(a,b,c,d,e,f) {
             var data = $(this).serialize().slice(7,10);
             
             
+            
                 if (data == "one") {
                     console.log(data);
                     
