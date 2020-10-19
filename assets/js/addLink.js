@@ -1,3 +1,5 @@
+//Sends the user to the resultsection if the button to submit choices has been clicked
+
 function submitLink() {
 
     

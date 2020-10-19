@@ -1,3 +1,5 @@
+//If button for contact form is clicked, the options below will appear/disappear
+
 function changeContact() {
     
     
@@ -7,6 +9,8 @@ function changeContact() {
         $("#book-button").removeClass("active-con");
     
 }
+
+//If button for booking form is clicked, the options below will appear disappear
 
 function changeBooking() {
     

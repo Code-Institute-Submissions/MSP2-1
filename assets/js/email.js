@@ -1,3 +1,4 @@
+//Sends and email with the information from the contact form
 
 function sendMail(contactForm) {
     emailjs.send("gmail", "elitetravel", {
