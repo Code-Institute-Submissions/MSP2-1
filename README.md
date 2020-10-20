@@ -1,6 +1,6 @@
 <h1 align="center">Elite Travels Webpage</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://matildamuyingo.github.io/MSP2/)
 
 This webpage is made and designed for a company called Elite Travels and aims to help people customise their travel and finding an appropriate destination.
 

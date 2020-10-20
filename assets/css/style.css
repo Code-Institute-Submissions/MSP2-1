@@ -85,7 +85,9 @@
     background-color: lightgray;
 }
 
-
+ol {
+    font-size: 20px;
+}
 
 .darker-nav {
     background-color: #f29e18;
@@ -205,6 +207,16 @@
 #all-dest-section {
     background-color: #bbc6d3;
     padding-bottom: 20px;
+}
+
+.sub-info-text {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+blockquote {
+    color: #f7f7f7;
+    width: 80%;
 }
 
 .destination-list {
