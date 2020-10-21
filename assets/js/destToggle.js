@@ -12,4 +12,4 @@ function seeMore() {
 
         console.log("you clicked");
     });
-};
+}

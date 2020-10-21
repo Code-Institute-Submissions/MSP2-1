@@ -1,4 +1,5 @@
 
+
 //Country Info contains country name, destination city and the latitude and longitude of said destination
 
 var countryInfo = [["USA","Miami", 25.761681, -80.191788],["Thailand", "Bankok", 13.736717, 100.523186],["Morocco", "Marakech", 31.669746, -7.973328],["Austrailia","Port Douglas", -16.4835, 145.4652],["Bahamas","Nassau", 25.059999, -77.345001], ["Spain", "Tenerife", 28.291565, -16.629129], ["France", "Nice", 43.675819, 7.289429], ["Spain", "Barcelona", 41.390205, 2.154007], ["Brazil", "Rio de Janeiro", -22.908333, -43.196388], ["Sweden", "Åre", 63.245400, 13.034320], ["Switzerland", "St. Moritz", 46.4984, 9.8391], ["USA", "Duluth MN", 46.783229, -92.11871], ["Ecuador", "Mt. Cayambe", 0.0290, -77.9860], ["Canada", "Banff", 51.180202, -115.565704], ["Sweden", "Kiruna", 67.8557, 20.2251], ["Norway", "Bergen",  60.397076, 5.324383], ["Canada", "Quebec City", 46.829853, -71.254028], ["Czech Republic", "Prague", 50.073658, 14.418540], ["France", "Paris", 48.864716, 2.349014], ["Germany", "Berlin", 52.520008, 13.404954], ["UAE", "Dubai", 25.276987, 55.296249], ["Japan", "Tokyo", 35.658581, 139.745438], ["Austria", "Vienna", 48.210033, 16.363449], ["Italy", "Venice", 45.444958, 12.328463], ["Iceland", "Reykjavik", 64.128288, -21.827774], ["Peru", "Cuzco",  -13.5226, -71.9673], ["Zimbabwe", "Hwange National Park", -18.6247, 27.0193]];        
@@ -213,7 +214,7 @@ function initMap(a,b,c,d,e,f) {
                         initMap(countryInfo[24][2], countryInfo[24][3],countryInfo[25][2],countryInfo[25][3],countryInfo[26][2],countryInfo[26][3]);
                     
                     } else {
-                        console.log("Your request wasn't processed")
+                        console.log("Your request wasn't processed");
                     }
 
                     
@@ -226,5 +227,4 @@ function initMap(a,b,c,d,e,f) {
         
     
     }
-
 

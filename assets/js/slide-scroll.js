@@ -9,19 +9,19 @@ function scrollToAnchor(aid){
 
 $("#st-cus-li").click(function() {
    scrollToAnchor('cus-sec');
-})
+});
 
 // Scroll to about section, navbar
 
 $("#about-li").click(function() {
    scrollToAnchor('abo-sec');
-})
+});
 
 // Scroll to contact section, navbar
 
 $("#cont-li").click(function() {
    scrollToAnchor('con-sec');
-})
+});
 
 // Scroll to contact section, about link
 
