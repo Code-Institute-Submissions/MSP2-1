@@ -189,7 +189,7 @@ ol {
 
 #results-section {
     background-color: #dce0f5;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 #map,
@@ -217,6 +217,10 @@ ol {
 blockquote {
     color: #f7f7f7;
     width: 80%;
+}
+
+.click-promp {
+    margin-left: 75px;
 }
 
 .destination-list {
@@ -249,7 +253,6 @@ blockquote {
 
 .li-text {
     display: inline-block;
-    padding-top: 10px;
     padding-right: 30px;
 }
 
@@ -278,6 +281,11 @@ blockquote {
 .unor-dest img {
     height: 100px;
     width: 100%;
+}
+
+.badge-secondary {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
 }
 
 /*-------------------Contact Section------------------*/
@@ -413,9 +421,7 @@ footer {
     height: 80px;
     }
 
-    .li-text {
-    padding-top: 8px;
-    }
+    
     
     #big-link-med {
         width: 90%;

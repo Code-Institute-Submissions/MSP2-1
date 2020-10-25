@@ -2,7 +2,7 @@
 
 [View the live project here.](https://matildamuyingo.github.io/MSP2/)
 
-This webpage is made and designed for a company called Elite Travels and aims to help people customise their travel and finding an appropriate destination.
+This webpage is made and designed for a company called Elite Travels and aims to help people customise their travel and finding an appropriate travel destination.
 
 <h2 align="center"><img src="assets/images/EliteTravels.PNG" width="80%"></h2>
 
@@ -12,42 +12,45 @@ This webpage is made and designed for a company called Elite Travels and aims to
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the services that are offered.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site and use the main function.
+        3. As a First Time Visitor, I want to look for the best alternative for me and be able to find a price I can compare to other companies that offer similar services.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
+        1. As a Returning Visitor, I want to find information about how to get in contact with the company, for any questions I have.
+        2. As a Returning Visitor, I want to be able to book a trip.
+        3. As a Returning Visitor, I want to see if there are any updates to the destinations.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        1. As a Frequent User, I want to check if there has been any additions to the offered destinations.
+       
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
+        -   There are a few diferent colors used throughout the page. The four main colors are <span style="color:#F29E18"> Orange Web</span>, <span style="color:#A63C06">Rust</span>, <span style="color:#BBC6D3">Light Steel Blue</span> and <span style="color:#DCE0F5">Lavender Web</span>
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   At the top of the page we find a logo that consists of the fonts "Playfair Display" and "Dancing Script". At the bottom right of the hero image, a paragraph using the "Raleway" font can be found. The "Dancing Script" font can be found as heading for each of the destinations in the list further down on the page. The rest of the content uses the Bootstrap default font.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   The hero image at the top of the page has the intention of showing the user what the page is for, without them having to read any description. It is a picture that will clearly draw the mind to traveling, and captures interest without there being to much happening in the photo. The pictures used for the destinations have the purpose of showing a small view of what the scenery of the trip would look like.
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    When making the wireframes, there was initially a few other ideas that was going to be in the project. This was tested out, but later changed and the wireframes were updated to change the page into something else. It went from being split into multiple pages, to being one longer page with the navigation sweeping down to the desired section.
+    
+    #### Initial Wireframes
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    #### Updated Wireframes
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    <span><img src="assets/images/EliteTravels.PNG" width="30%"></span>
+    <span><img src="assets/images/EliteTravels.PNG" width="30%"></span>
+    <span><img src="assets/images/EliteTravels.PNG" width="30%"></span>
+
 
 ## Features
 
 -   Responsive on all device sizes
 
--   Interactive elements
 
 ## Technologies Used
 
@@ -55,102 +58,100 @@ This webpage is made and designed for a company called Elite Travels and aims to
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
--   [JS]
+-   [JS](https://en.wikipedia.org/wiki/JavaScript) 
 
 ### Frameworks, Libraries & Programs Used
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
+    - Bootstrap was used to assist with the responsiveness and styling of the website, but also to add the cards that are displayed when the options form have been filled out.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Dancing Script' and 'Playfair Display' fonts into the style.css document.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used to add icons on the options-form and also at the bottom of the page, for the social media links.
 1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+    - jQuery is used throughout the JavaScript files but was also required for a few Bootstrap elements.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1. [EmailJS:](https://www.emailjs.com/)
+    - EmailJS is used to send emails with the users questions or booking request that they've sent through the form at the bottom of the page.
+1. [Google Maps:](https://developers.google.com/maps/documentation/javascript/overview)
+    - The Google Maps API is used to load and display the maps for the destinations.
+
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. The JSHint service was used to validate all JavaScript code used in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+#### HTML
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+-    The Markup Validator found no errors or warnings.
+
+#### CSS
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+-    The CSS Validator did not find any errors with the CSS code.
+
+#### JavaScript
+-   [JSHint](https://jshint.com/)
+-    Each JS file passed the test on the JS Hint site without problems.
 
 ### Testing User Stories from User Experience (UX) Section
 
+
+
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the services that are offered.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+        1. When opening the site, the user sees the hero image, wich clearly illustrates that the page purpose is in regards to travelling.
+        2. The start page always has the navigation bar and top of the about section visible, so the user can immidiatly find their way to getting more information about what the company does.
+        3. The navigation bar indicates to the user that you can book trips and customize destinations, wich helps with understanding the purpose of the page.
 
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+    2. As a First Time Visitor, I want to be able to easily navigate throughout the site and use the main function.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+        1. The user is greeted by the hero image and navigation bar. The navigation bar will immidiatly bring attention to the fact that you can customize your trip, and invites the user to click the link bringing them to that section.
+        2. When going down to the customizing section, the user is encouraged to click the options for weather preferences, which will open the next step in the customisation.
+        3. When the user submits the form, they are immidiatly brough to the results section where they get examples of trips that would fit. The user gets the options without having to navigate their way to finding them.
 
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+    3. As a First Time Visitor, I want to look for the best alternative for me and be able to find a price I can compare to other companies that offer similar services.
+        
+        1. After being presented with recommended options for travel destinations, there is a button that lets the user scroll down to a list with more destinations. Above the list is a promt to click the destinations for more information.
+        2. On larger screens, a badge can be seen next to the name of the destination with the price for each person.
+    
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+    1. As a Returning Visitor, I want to find information about how to get in contact with the company, for any questions I have.
 
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
+        1. The navigation bar has a contact/booking tab that will send the user to the bottom of the page where they can find an email form to send questions.
+        2. The default form is for booking requests, and when clicking the button for "Contact", the button is highlighted to help the user see which one has been chosen.
 
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+    2. As a Returning Visitor, I want to be able to book a trip.
 
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
+        1. As with the contact inquires, the navigation bar clearly helps the user to find the booking form.
+        2. The booking form is pre-selected and all the user has to do is fill in the desired trip details, as well as contact information.
 
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
+    3. As a Returning Visitor, I want to see if there are any updates to the destinations.
+        1. As a returning visitor, the user can find their way down to the destinations list where information about the destinations can be found. 
 
 -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+     1. As a Frequent User, I want to check if there has been any additions to the offered destinations.
+        1. The frequent user would already be familiar with the page and look for changes in the destionations list, or get in contact through the contact form. 
 
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
 
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
-
-        1. The user would already be comfortable with the website layout and can easily click the blog link
-
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
-
+    
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The Website was tested on Google Chrome, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Laptop, iPhone7, iPhone XR & iPhone 11 Pro.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues. Feedback was gathered by using [Goolge-Forms](https://docs.google.com/forms/u/0/) and was then reviewed for changes. 
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   On some devices the maps have trouble loading if the conditions of the form displaying the options are changed.
 
 ## Deployment
 
@@ -204,24 +205,29 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+-   The function that makes the navigation bar scroll down to the desired sections was found on [JSFiddle](http://jsfiddle.net/BjpWB/4/)
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-   The conditional form that is used for getting the destination options was found on [codepen.io](https://codepen.io/ErrorDactyl/pen/WrvOby) and was originally written by the user @ErrorDactyl. The forms content has been updated by the developer to fit the purpose, but the basic structure and functionality was used to achive this purpose.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System and other components such as the cards displayed with the options.
+
+-   [Google Maps](https://developers.google.com/maps/documentation/javascript/overview): The Google Maps was used to access maps and locations that are displayed in the results cards.
+
+
 
 ### Content
 
--   All content was written by the developer.
+-   All content was written by the developer, **except for:**
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+    -   The two quotes that can be found at the top of the destinations section were found on [this page](https://expertvagabond.com/best-travel-quotes/)
+    -   The promotional information that is in the paragraphs for each destination on the list, wich was found on [this page](https://www.holidayhypermarket.co.uk/hype/the-best-destinations-for-a-sun-soaked-shopping-holiday/)
 
 ### Media
 
--   All Images were created by the developer.
+-   All Images used were taken by the developer.
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Mentor Arnold Kyeza for continuous helpful feedback and ideas for the website.
 
--   Tutor support at Code Institute for their support.
+-   Friends and family for taking the time to test and review the webpage.

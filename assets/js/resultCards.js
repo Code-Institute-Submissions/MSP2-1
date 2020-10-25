@@ -146,15 +146,15 @@ function initMap(a,b,c,d,e,f) {
                     } else if (data2 == "Sleading") {
                         
                         $("#card-head-1").html(countryInfo[15][1] +", "+countryInfo[15][0]);
-                        $("#card-img-1").attr("src", "assets/images/ski.jpg");
+                        $("#card-img-1").attr("src", "assets/images/ice-hike.JPG");
                         $("#card-desc-1").html("This lovely getaway will be perfect for you and a companion to enjoy all the best that life has to offer");
 
                         $("#card-head-2").html(countryInfo[16][1] +", "+countryInfo[16][0]);
-                        $("#card-img-2").attr("src", "assets/images/shop.jpg");
+                        $("#card-img-2").attr("src", "assets/images/cabin.JPG");
                         $("#card-desc-2").html("This lovely getaway will be perfect for you and a companion to enjoy all the best that life has to offer");
 
                         $("#card-head-3").html(countryInfo[17][1] +", "+countryInfo[17][0]);
-                        $("#card-img-3").attr("src", "assets/images/shop.jpg");
+                        $("#card-img-3").attr("src", "assets/images/mountains.JPG");
                         $("#card-desc-3").html("This lovely getaway will be perfect for you and a companion to enjoy all the best that life has to offer");
                     
                         initMap(countryInfo[15][2], countryInfo[15][3],countryInfo[16][2],countryInfo[16][3],countryInfo[17][2],countryInfo[17][3]);
@@ -188,7 +188,7 @@ function initMap(a,b,c,d,e,f) {
                         $("#card-desc-1").html("This lovely getaway will be perfect for you and a companion to enjoy all the best that life has to offer");
 
                         $("#card-head-2").html(countryInfo[22][1] +", "+countryInfo[22][0]);
-                        $("#card-img-2").attr("src", "assets/images/cliff-house.JPG");
+                        $("#card-img-2").attr("src", "assets/images/handstand.JPG");
                         $("#card-desc-2").html("This lovely getaway will be perfect for you and a companion to enjoy all the best that life has to offer");
 
                         $("#card-head-3").html(countryInfo[23][1] +", "+countryInfo[23][0]);
