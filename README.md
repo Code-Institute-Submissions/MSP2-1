@@ -4,7 +4,7 @@
 
 This webpage is made and designed for a company called Elite Travels and aims to help people customise their travel and finding an appropriate travel destination.
 
-<h2 align="center"><img src="assets/images/EliteTravels.PNG" width="80%"></h2>
+<h2 align="center"><img src="assets/images/EliteTravels.PNG" width="80%"><img src="assets/images/elite-index-mobile.png" width="15%"></h2>
 
 ## User Experience (UX)
 
@@ -40,16 +40,25 @@ This webpage is made and designed for a company called Elite Travels and aims to
     
     #### Initial Wireframes
 
+    <img src="assets/images/wire-elite-old.jpg" width="30%">
+
     #### Updated Wireframes
 
-    <span><img src="assets/images/EliteTravels.PNG" width="30%"></span>
-    <span><img src="assets/images/EliteTravels.PNG" width="30%"></span>
-    <span><img src="assets/images/EliteTravels.PNG" width="30%"></span>
+    Wireframes for desktop and mobile format for the final product
+
+    <span><img src="assets/images/elite-wire-desk.jpg" height="450px"></span>
+    <span><img src="assets/images/elite-wire-mobile.jpg" height="450px"></span>
 
 
 ## Features
 
--   Responsive on all device sizes
+-   Navigation that scrolls down to the desired section.
+-   Select options based on preferences and get recommendations for travel destinations.
+-   See destination locations with google maps.
+-   See a list of destinations and click to toggle a paragraph where you can read more.
+-   Contact form that can be changed by clicking a button, to send emails to the page owner.
+-   Social Media Links that opens on a new tab.
+-   Responsive on all device sizes.
 
 
 ## Technologies Used
@@ -133,11 +142,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         2. The booking form is pre-selected and all the user has to do is fill in the desired trip details, as well as contact information.
 
     3. As a Returning Visitor, I want to see if there are any updates to the destinations.
+        
         1. As a returning visitor, the user can find their way down to the destinations list where information about the destinations can be found. 
 
 -   #### Frequent User Goals
 
      1. As a Frequent User, I want to check if there has been any additions to the offered destinations.
+        
         1. The frequent user would already be familiar with the page and look for changes in the destionations list, or get in contact through the contact form. 
 
 
@@ -152,6 +163,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known Bugs
 
 -   On some devices the maps have trouble loading if the conditions of the form displaying the options are changed.
+-   On some mobile devices, the maps for the option of "mixed weather" and "shopping" have trouble displaying, but works after another option has been clicked. 
 
 ## Deployment
 
@@ -213,6 +225,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [Google Maps](https://developers.google.com/maps/documentation/javascript/overview): The Google Maps was used to access maps and locations that are displayed in the results cards.
 
+-   [EmailJS](https://www.emailjs.com/): Was used to get the contact and booking form to send the emails containing the users questions or booking requests.
 
 
 ### Content
