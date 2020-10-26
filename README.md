@@ -4,7 +4,8 @@
 
 This webpage is made and designed for a company called Elite Travels and aims to help people customise their travel and finding an appropriate travel destination.
 
-<h2 align="center"><img src="assets/images/EliteTravels.PNG" width="80%"><img src="assets/images/elite-index-mobile.png" width="15%"></h2>
+<span><img src="assets/images/EliteTravels.PNG" width="70%"></span>          <span><img src="assets/images/elite-index-mobile.png" width="15%" margin-left="30px"></span>
+
 
 ## User Experience (UX)
 
